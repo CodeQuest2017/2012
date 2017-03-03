@@ -31,14 +31,14 @@ public class prob11{
         //loop through regions
         for (int x = 1;x<=gridlen;x++){
          for (int y = 1;y<=gridheight;y++){
-          for (int i = 1;i<gridlen;i++){//region len
-           for (int a = 1;a<gridheight;a++){//region height
+          for (int i = 1;i<=gridlen-x+1;i++){//region len
+           for (int a = 1;a<=gridheight-y+1;a++){//region height
             tempsum = 0;
             for (int index = 1;index<inputArr.length;index++){//loop through vals
              if (Integer.parseInt(inputArr[index].split(",")[0])>=x
               && Integer.parseInt(inputArr[index].split(",")[1])>=y
-              && Integer.parseInt(inputArr[index].split(",")[0])<x+i
-              && Integer.parseInt(inputArr[index].split(",")[1])<y+a){
+              && Integer.parseInt(inputArr[index].split(",")[0])<=x+i-1
+              && Integer.parseInt(inputArr[index].split(",")[1])<=y+a-1){
               tempsum+=Integer.parseInt(inputArr[index].split(",")[2]);
              }
             }
