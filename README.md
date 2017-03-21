@@ -17,7 +17,7 @@ Code is separated based on who wrote what and follows the naming convention `Nam
 - [ ] 9. Almost the Same
 - [x] 10. Factorials (Solved by: Donovan)
 - [x] 11. Let’s Buy Land (Solved by: Lily)
-- [ ] 12. Crack the Maze
+- [x] 12. Crack the Maze
 - [ ] 13. Score the Test
 - [ ] 14. Shortest Flight Path
 - [ ] 15. Pattern Part Play
