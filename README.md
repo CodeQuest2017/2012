@@ -12,9 +12,9 @@ Code is separated based on who wrote what and follows the naming convention `Nam
 - [x] 4. Hidden Message (Solved by: Donovan)
 - [ ] 5. Loan Amortization
 - [x] 6. Palindromes (Solved by: Donovan)
-- [ ] 7. Grade the Scantron
+- [x] 7. Grade the Scantron (Solved by: Donovan)
 - [ ] 8. Around the Block
-- [ ] 9. Almost the Same
+- [x] 9. Almost the Same (Solved by: Donovan)
 - [x] 10. Factorials (Solved by: Donovan)
 - [x] 11. Let’s Buy Land (Solved by: Lily)
 - [x] 12. Crack the Maze (Solved by: Lily)
