@@ -9,7 +9,7 @@ public class Prob05 {
     public static double monthsPaid;
     public static double monthlyPayment;
 	public static void main(String[] args) throws IOException {
-		Scanner scan = new Scanner(new File("Prob05.in.txt"));
+		Scanner scan = new Scanner(new File(args[0] + "Prob05.in.txt"));
 		while(scan.hasNext()) {
 			originalPrincipal = scan.nextDouble();
 			interestRate = scan.nextDouble();
@@ -19,8 +19,8 @@ public class Prob05 {
 			double remainingPrincipal = originalPrincipal;
 			for(int i = 0; i < numMonths; i++) {
 			    remainingPrincipal = makePayment(remainingPrincipal);
-			    System.out.println(remainingPrincipal);
 			}
+			System.out.println(remainingPrincipal);
 		}
 		scan.close();
 	}

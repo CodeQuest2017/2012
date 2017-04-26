@@ -3,7 +3,7 @@ import java.io.*;
 
 public class Prob07 {
 	public static void main(String[] args) throws IOException {
-		Scanner scan = new Scanner(new File("Prob07.in.txt"));
+		Scanner scan = new Scanner(new File(args[0] + "Prob07.in.txt"));
 		int P = scan.nextInt();
 		int N = 100 / P;
 		

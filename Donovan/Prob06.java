@@ -3,7 +3,7 @@ import java.io.*;
 
 public class Prob06 {
 	public static void main(String[] args) throws IOException {
-		Scanner scan = new Scanner(new File("Prob06.in.txt"));
+		Scanner scan = new Scanner(new File(args[0] + "Prob06.in.txt"));
 		String possible = "0123456789abcdefghijklmnopqrstuvwxyz";
 		while(scan.hasNext()) {
 			String s = scan.nextLine();

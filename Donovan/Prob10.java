@@ -3,7 +3,7 @@ import java.io.*;
 
 public class Prob10 {
 	public static void main(String[] args) throws IOException {
-		Scanner scan = new Scanner(new File("Prob10.in.txt"));
+		Scanner scan = new Scanner(new File(args[0] + "Prob10.in.txt"));
 		while(scan.hasNext()) {
 			long n = scan.nextInt();
 			long ans = 1;

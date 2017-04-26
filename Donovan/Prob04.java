@@ -3,7 +3,7 @@ import java.io.*;
 
 public class Prob04 {
 	public static void main(String[] args) throws IOException {
-		Scanner scan = new Scanner(new File("Prob04.in.txt"));
+		Scanner scan = new Scanner(new File(args[0] + "Prob04.in.txt"));
 		String key = scan.nextLine();
 		Map<Integer, String> map = new HashMap<Integer, String>();
 		for(int i = 0, x = key.length(); i < x; i++) {

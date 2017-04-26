@@ -3,7 +3,7 @@ import java.io.*;
 
 public class Prob01 {
 	public static void main(String[] args) throws IOException {
-		Scanner scan = new Scanner(new File("Prob01.in.txt"));
+		Scanner scan = new Scanner(new File(args[0] + "Prob01.in.txt"));
 		double ans = 0;
 		while(scan.hasNext()) {
 			String line = scan.next();
@@ -19,7 +19,7 @@ public class Prob01 {
 			}
 			ans += value * v;
 		}
-		System.out.printf("%.2f", ans);
+		System.out.printf("$%.2f", ans);
 		System.out.print("\n");
 		scan.close();
 	}

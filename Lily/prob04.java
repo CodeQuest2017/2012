@@ -5,9 +5,9 @@ import java.util.Scanner;
 import java.io.*;
 import java.util.Arrays;
 
-public class prob04{
+public class Prob04{
     public static void main(String[] args)throws Exception{
-        File file=new File("prob04.in");
+        File file=new File(args[0] + "Prob04.in.txt");
         //System.out.println(file.exists());
         Scanner scan=new Scanner(file);
         String input = "";

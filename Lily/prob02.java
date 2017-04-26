@@ -2,9 +2,9 @@
 import java.util.Scanner;
 import java.io.*;
 
-public class prob02{
+public class Prob02{
     public static void main(String[] args)throws Exception{
-        File file=new File("prob02.in");
+        File file=new File(args[0] + "Prob02.in.txt");
         //System.out.println(file.exists());
         Scanner scan=new Scanner(file);
         String input = "";

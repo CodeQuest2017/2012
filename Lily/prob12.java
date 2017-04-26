@@ -2,10 +2,10 @@
 import java.util.*;
 import java.io.*;
 
-public class prob12{
+public class Prob12{
     static boolean[][] grid;
     public static void main(String[] args)throws Exception{
-        File file=new File("prob12.in.txt");
+        File file=new File(args[0] + "Prob12.in.txt");
         //System.out.println(file.exists());
         Scanner scan=new Scanner(file);
         String input = "";
